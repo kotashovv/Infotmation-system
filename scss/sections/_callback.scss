@@ -1,0 +1,61 @@
+.callback {
+    padding: 50px 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    &__wrap {
+
+    }
+
+    &__form {
+        padding: 50px 100px;
+        background-color: #fff;
+        max-width: 80%;
+        border-radius: 5px;
+        form {
+            .form-row {
+                .form-button {
+                    padding: 15px 30px;
+                    width: auto;
+                }
+            }
+            p {
+                margin: 0;
+                margin-bottom: 5px;
+                &:last-child {
+                    margin-bottom: 0;
+                    font-size: 14px;
+                    font-family: $rr;
+                    line-height: 1.2;
+                    font-weight: 600;
+                    a {
+                        color: #446B72;
+                    }
+                    
+                }
+                &:first-child {
+                    font-size: 20px;
+                    font-family: $rm;
+                    line-height: 1.4;
+                    font-family: $rm;
+                    font-weight: 600;
+                    font-size: 20px;
+                }
+            }
+            input[type=tel], input[type=text] {
+                padding: 15px;
+                font-size: 15px;
+                font-family: $rr;
+                font-weight: 600;
+                line-height: 1;
+                border-radius: 5px;
+                border: 1px solid #cbcece;
+                color: #000;
+                margin-right: 30px;
+                max-width: 320px;
+                width: 100%;
+                margin-bottom: 10px;
+            }
+        }
+    }
+}

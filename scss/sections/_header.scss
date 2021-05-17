@@ -1,0 +1,209 @@
+
+
+.header {
+
+    &__body {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__column {
+    }
+
+    &__logo {
+        max-height: 55px;
+        max-width: 218px;
+        padding: 20px;
+        img {
+            width: 100%;
+        }
+    }
+
+    &__nav {
+        width: 100%;
+    }
+
+    &__phone {
+        a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 15px;
+            font-family: $rb;
+        }
+        
+        
+    }
+    &__mail {
+        a {
+            color: #fff;
+            text-decoration: none;
+            font-style: 15px;
+            font-family: $rb;
+        }
+        
+    }
+
+    &__socials {
+    }
+
+    &__specials {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 10px 10px 70px 30px;
+        background-color: #446B72;
+        .callback-btn {
+            margin-bottom: 30px;
+        }
+        a {
+            font-family: $rm;
+            font-weight: 500;
+            font-style: normal;
+            font-size: 16px;
+            line-height: 1;
+            color: #fff;
+            text-decoration: none;
+            margin-bottom: 14px;
+            transition: transform 0.1s ease;
+            &:last-child {
+                margin-bottom: 0;
+            }
+            &:hover {
+                transform: scale(1.02);
+            }
+        }
+    }
+
+    &__video {
+        background-color: #222D2F;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 50px 0;
+        p {
+            text-align: center;
+            font-family: $rr;
+            font-weight: 400;
+            font-size: 14px;
+            max-width: 140px;
+            color: #fff;
+            line-height: 1.5;
+        }
+    }
+}
+.header-column {
+
+    &__left {
+        background-color: #BEE3EA;
+        width: 100%;
+    }
+
+    &__right {
+        width: 25%;
+    }
+}
+.header-left {
+
+    &__top {
+        display: flex;
+
+    }
+
+    &__bottom {
+    }
+}
+.header-nav {
+
+    &__row {
+        display: flex;
+        justify-content: space-between;
+        padding: 22px;
+        
+        div {
+            flex-basis: 33.33%;
+            text-align: center;
+            a {
+                padding: 0 12.5px;
+                line-height: 1;
+            }
+        }
+        nav {
+            width: 100%;
+            ul {
+                display: flex;
+                justify-content: space-between;
+                margin: 0;
+                padding: 0;
+                list-style: none;
+                li {
+                    a {
+                        font-family: $rr;
+                        font-size: 14px;
+                        text-decoration: none;
+                        color: #222D2F;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 1;
+                    }
+                }
+            }
+        }
+    }
+}
+.header-row-bottom {
+    background-color: #efefef;
+}
+
+.header-row-top {
+    background-color: #222D2F;
+}
+
+.icons-color {
+    fill: #fff;
+}
+.headev-nav {
+
+    &__row {
+    }
+}
+.header {
+
+    &__banner {
+        width: 100%;
+        padding: 50px 20px;
+    }
+}
+.header-banner {
+
+    &__text {
+        h1 {
+            margin: 0;
+            font-size: 33px;
+            font-family: $rb;
+            line-height: 1.6;
+            font-weight: bold;
+            margin-bottom: 30px;
+        }
+    }
+
+    &__btn {
+        border: none;
+        background-color: #222D2F;
+        color: #fff;
+        border-radius: 5px;
+        outline: none;
+        font-family: $rm;
+        font-size: 16px;
+        line-height: 1;
+        padding: 20px 60px;
+        cursor: pointer;
+        transition: transform 150ms ease;
+        &:hover{
+            transform: scale(1.05);
+        }
+        &:active {
+            transform: scale(0.95);
+        }
+    }
+}

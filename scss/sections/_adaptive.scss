@@ -1,0 +1,382 @@
+@media (max-width:1200px) {
+    .header__banner {
+        padding: 20px;
+    }
+    .guarantees__body {
+        justify-content: center;
+    }
+
+    .callback  {
+        &__form {
+            padding: 20px 50px;
+            max-width: 100%;
+        }
+    }
+    .breaker {
+        padding: 50px 0 20px;
+        &__wrap {
+            h3 {
+                font-size: 32px;
+                padding: 0 5px;
+            }
+        }
+    }
+    .supervisor {
+        padding: 20px 10px 20px;
+    }
+    .reviews {
+        padding: 50px 0;
+    }
+}
+
+@media (max-width:1140px) {
+    .guarantees  {
+        padding: 50px 0;
+    }
+    .guarantees__body {
+        flex-wrap: wrap;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width:1023px) {
+    .header {
+        &__body {
+            flex-direction: column;
+        }
+        &__logo {
+            width: 25%;
+            padding: 40px 10px 10px;
+            img {
+            }
+        }
+    }
+    .header-column__right {
+        width: 100%;
+        display: flex;
+        div {
+            flex-basis: 50%;
+        }
+    }
+    .header__banner {
+        h1 {
+            font-size: 28px;
+        }
+    }
+    .header__specials {
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+    .header-nav__row {
+        padding: 15px 5px;
+    }
+    
+    .benefit__body {
+        flex-direction: column;
+        align-items: center;
+    }
+    .benefit-column-left {
+        padding: 20px;
+    }
+    .benefit-column-right__imgs {
+        width: 100%;
+        justify-content: center;
+    }
+    .benefit__form {
+        text-align: center;
+    }
+    .benefit__cards {
+        justify-content: space-between;
+        width: 100%;
+    }
+    .benefit-card {
+        margin: 0;
+    }
+    .tasks__cards {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .tasks__card {
+        padding: 20px;
+    }
+    .callback  {
+        padding: 30px 20px;
+        &__form {
+            padding: 20px 50px;
+            max-width: 100%;
+        }
+    }
+    .qestions__column:last-child {
+        display: none;
+    }
+    .qestions__column {
+        flex-basis: 100%;
+    }
+    .connect {
+        padding: 30px 5px;
+    }
+    .connect__body {
+        justify-content: center;
+        flex-wrap: wrap;
+        max-width: 700px;
+        margin: 0 auto;
+        
+    }
+    .connect__card {
+        width: 50%;
+    }
+    .checkinn__wrap {
+        width: 90%;
+    }
+    .reviews {
+        padding: 30px 0;
+        h4 {
+            font-size: 32px;
+        }
+    }
+    .bottom-form form .form-row {
+        flex-direction: column;
+        .form-button {
+            width: 100%;
+        }
+    }
+
+    .footer {
+        padding: 30px 10px 30px;
+    }
+    .footer__wrap {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .footer__column ul {
+        display: none;
+        
+    }
+    .footer__column {
+        margin-bottom: 20px;
+    }
+    .footer__logo {
+        margin-bottom: 20px;
+    }
+    .footer__column:last-child {
+        justify-content: center;
+        text-align: center;
+    }
+    .footer__copyrigth {
+        padding: 0;
+        justify-content: center;
+        p {
+            margin: 0 5px;
+        }
+    }
+}
+
+@media (max-width:768px) {
+    .breaker__wrap h3 {
+        font-size: 24px;
+    }
+    .header {
+        &__nav {
+            display: none;
+        }
+        &__logo {
+            width: 100%;
+            padding: 10px;
+        }
+    }
+    .header-left__top {
+        justify-content: space-between;
+    }
+    .header-banner__text {
+        h1 {
+            font-size: 24px;
+        }
+    }
+    .benefit-column-left {
+        padding: 0;
+        width: 100%;
+        text-align: center;
+        h3 {
+            font-size: 24px;
+            padding-bottom: 10px;
+        }
+    }
+    .benefit-card {
+        width: 50%;
+        p {
+            font-size: 16px;
+        }
+    }
+    .benefit__form form input[type=tel] {
+        width: 80%;
+        margin: 0 0 20px;
+    }
+    .benefit__form {
+        .form-button {
+            width: 80%;
+        }
+    }
+    .tasks {
+        padding: 30px 10px;
+        &__title {
+            margin-bottom: 20px;
+            h3 {
+                font-size: 28px;
+            }
+        }
+        
+    }
+    .tasks-card {
+        &__icon {
+            margin-bottom: 15px;
+
+        }
+        &__text {
+            margin-bottom: 15px;
+            p {
+                font-size: 16px;
+            }
+        }
+        &__btn {
+            padding: 15px 40px;
+        }
+    }
+    .guarantees {
+        padding: 30px 0;
+    }
+    .guarantees__card {
+        margin: 5px;
+    }
+    .callback  {
+        padding: 20px 10px;
+    }
+    .callback__form form p:first-child {
+        font-size: 18px;
+    }
+    .callback__form form p:last-child {
+        font-size: 12px;
+    }
+    .callback__form form input[type=tel], .callback__form form input[type=text] {
+        margin-right: 10px;
+    }
+    .supervisor__columns {
+        flex-direction: column;
+    }
+    .supervisor__column:first-child {
+        margin: 0;
+    }
+    .supervisor__title {
+        font-size: 24px;
+    }
+    .breaker {
+        padding: 30px 0 15px;
+    }
+    .qestions-column__row:first-child h3 {
+        padding: 20px;
+    }
+    .qestions-column__row:last-child h3 {
+        padding: 20px;
+    }
+    .checkinn {
+        padding: 0;
+    }
+    .checkinn__wrap {
+        width: 100%;
+        border: none;
+    }
+    .checkinn form {
+        padding: 20px 15px;
+    }
+    .faq {
+        padding: 30px 0;
+    }
+    .faq__columns {
+        flex-direction: column;
+    }
+    .faq__column:first-child {
+        margin: 0;
+    }
+    .faq__column .accordeon-btn {
+        padding: 20px 55px 20px 15px;
+    }
+    .faq__column .accordeon-btn::after {
+        top: 15%;
+        right: 1%;
+    }
+    .reviews__title {
+        margin-bottom: 15px;
+    }
+    .bottom-form form {
+        padding: 0 10px;
+    }
+    .footer__copyrigth {
+        padding: 0;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        p {
+            margin: 10px;
+            text-align: center;
+        }
+    }
+}
+
+@media (max-width:709px){
+    .connect__card {
+        width: 100%;
+    }
+}
+    
+
+@media (max-width:425px) {
+    .header-banner__text {
+        h1 {
+            font-size: 18px;
+        }
+    }
+    .header-banner__btn {
+        font-size: 16px;
+        line-height: 1;
+        padding: 15px 30px;
+    }
+    .header-column__right {
+        flex-direction: column;
+
+    }
+    .header__video {
+        padding: 20px 10px;
+    }
+    .benefit__cards {
+        flex-direction: column;
+        .benefit-card {
+            width: 100%;
+        }
+        
+    }
+    .supervisor {
+        padding: 15px 0 20px;
+    }
+    .accordeon-btn {
+        padding: 20px 55px 20px 15px;
+        font-size: 15px;
+        &::after {
+            top: 20px;
+            right: 15px;
+        }
+    }
+    .qestions-column__row:first-child h3 {
+        font-size: 24px;
+    }
+    .qestions-column__row:last-child h3 {
+        font-size: 24px;
+    }
+    .connect {
+        padding: 20px 0;
+    }
+    .bottom-form {
+        padding: 15px 0;
+    }
+}

@@ -1,0 +1,101 @@
+.footer {
+    padding: 80px 20px 40px;
+    background: rgba(34, 45, 47, 1);
+
+    &__wrap {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    &__column {
+        >a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 16px;
+            font-family: $rr;
+            font-weight: 400;
+        }
+        ul {
+            margin-top: 40px;
+            list-style: none;
+            padding: 0;
+            max-width: 200px;
+            li {
+                margin-bottom: 20px;
+                a {
+                    font-size: 14px;
+                    color: #fff;
+                    text-decoration: none;
+                }
+            }
+        }
+        &:last-child {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            text-align: right;
+            a {
+                margin-bottom: 20px;
+            }
+            
+        }
+    }
+    
+    &__logo {
+        max-width: 100px;
+        max-height: 100px;
+        img {
+            width: 100%;
+        }
+    }
+
+    &__contacts {
+        svg {
+            margin-left: 10px;
+        }
+    }
+
+    &__socials {
+        margin-bottom: 15px
+        ;
+    }
+
+    &__btn {
+        text-align: center;
+        max-width: 210px;
+        width: 100%;
+        font-size: 14px;
+        border: none;
+        border-radius: 5px;
+        padding: 15px 10px;
+        margin-top: 15px;
+        font-family: $rm;
+        line-height: 1;
+        font-weight: 600;
+    }
+
+    &__call {
+        background-color: #fff;
+        color: #000;
+    }
+
+    &__chat {
+        background-color: rgba(34, 45, 47, 1);
+        color: #fff;
+        border: 1px solid #fff;
+    }
+
+    &__copyrigth {
+        display: flex;
+        padding-left: 14%;
+        p {
+            margin-right: 30px;
+            color: #fff;
+            font-size: 16px;
+            font-family: $rm;
+        }
+    }
+}
+
+

@@ -1,0 +1,49 @@
+// обнуление Стилей
+
+
+@import 'sections/normalize';
+
+// шрифты
+@import 'sections/fonts';
+
+@import 'sections/grids';
+
+//Интерфейс
+@import 'sections/interface';
+
+//Шапка сайта
+@import 'sections/header';
+
+//Содержимое страницы
+
+@import 'sections/benefit';
+
+@import 'sections/tasks';
+
+@import 'sections/guarantees';
+
+@import 'sections/callback';
+
+@import 'sections/breaker';
+
+@import 'sections/supervisor';
+
+@import 'sections/qestions';
+
+@import 'sections/connect';
+
+@import 'sections/checkinn';
+
+@import 'sections/faq';
+
+@import 'sections/reviews';
+
+@import 'sections/form-bottom';
+
+//Подвал сайта
+@import 'sections/footer';
+
+@import 'sections/adaptive';
+
+
+

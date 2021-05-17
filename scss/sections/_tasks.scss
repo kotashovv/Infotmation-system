@@ -1,0 +1,79 @@
+.tasks {
+    background-color: #BEE3EA;
+    padding: 60px 10px 80px;
+    &__body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__title {
+        margin-bottom: 35px;
+        h3 {
+            font-size: 40px;
+            font-family: $rb;
+            font-weight: 700;
+            margin: 0;
+            line-height: 1;
+        }
+    }
+
+    &__cards {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__card {
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        flex-basis: 33.33%;
+        background-color: #fff;
+        border-radius: 5px;
+        padding: 30px; 
+        box-shadow: 4px 4px 14px 0 rgba(105, 150, 158, 0.5);
+        svg {
+            width: 65px;
+            height: 65px;
+        }
+        p {
+            text-align: center;
+            margin: 0;
+            font-family: $rm;
+            font-weight: 500;
+            font-size: 18px;
+        }
+    }
+
+    &__btn {
+        border: none;
+        padding: 15px 80px;
+        cursor: pointer;
+        background-color: #EFEFEF;
+        border-radius: 5px;
+        font-family: $rb;
+        font-weight: 700;
+        font-size: 15px;
+        transition: .2s;
+        &:hover{
+            transform: scale(1.05);
+        }
+        &:active {
+            transform: scale(0.95);
+        }
+    }
+}
+.tasks-card {
+
+    &__icon {
+        margin-bottom: 30px;
+    }
+
+    &__text {
+        max-width: 300px;
+        margin-bottom: 50px;
+    }
+
+}

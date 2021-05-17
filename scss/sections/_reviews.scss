@@ -1,0 +1,81 @@
+.reviews {
+    padding: 100px 0px 100px;
+    background-color: #efefef;
+    &__wrap {
+    }
+
+    &__title {
+        text-align: center;
+        margin-bottom: 30px;
+        text-transform: uppercase;
+        h4 {
+            font-family: $rb;
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 1.4;
+            margin: 0;
+        }
+    }
+
+    &__slider {
+        position: relative;
+        padding: 0 30px;
+        .slider-nextarrow {
+            position: absolute;
+            z-index: 99;
+            top: 50%;
+            transform: translateY(-50%);
+            right: 0px;
+            cursor: pointer;
+            svg {
+                width: 30px;
+                height: 30px;
+            }
+        
+        }
+        .slider-prevarrow {
+            position: absolute;
+            z-index: 99;
+            top: 50%;
+            transform: translateY(-50%);
+            left: 0px;
+            cursor: pointer;
+            svg {
+                width: 30px;
+                height: 30px;
+            }
+        }
+    }
+}
+.swiper-container {
+}
+.swiper-wrapper {
+}
+.swiper-slide {
+    padding: 50px 20px 25px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 5px;
+    &:nth-child(2n) {
+        background-color: #BEE3EA;
+    }
+    p {
+        font-size: 14px;
+        line-height: 1.5;
+        font-family: $rr;
+        font-weight: 400;
+
+    }
+    button {
+        padding: 11px 50px;
+        background-color: #446B72;
+        border: none;
+        border-radius: 5px;
+        color: #fff;
+        font-size: 15px;
+        font-family: $rb;
+        font-weight: 700;
+    }
+}
+
+

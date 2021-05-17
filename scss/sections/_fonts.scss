@@ -1,0 +1,42 @@
+// Основной шрифт на сайте с предзагрузкой
+
+@font-face {
+    font-family: "Rubik-Regular";
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;
+    src: url(assets/fonts/Rubik-Regular.woff) format('woff'),
+    url(assets/fonts/Rubik-Regular.ttf), format('truetype');
+    }
+@font-face {
+    font-family: "Rubik-Bold";
+    font-display: swap;
+    font-weight: 700;
+    font-style: normal;
+    src: url(assets/fonts/Rubik-Bold.woff) format('woff'),
+    url(assets/fonts/Rubik-Bold.ttf), format('truetype');
+    }
+@font-face {
+    font-family: "Rubik-Medium";
+    font-display: swap;
+    font-weight: 500;
+    font-style: normal;
+    src: url(assets/fonts/Rubik-Medium.woff) format('woff'),
+    url(assets/fonts/Rubik-Medium.ttf), format('truetype');
+    }
+
+@font-face {
+        font-family: "Rubik-Black";
+        font-display: swap;
+        font-weight: 900;
+        font-style: normal;
+        src: url(assets/fonts/Rubik-Black.woff) format('woff'),
+        url(assets/fonts/Rubik-Black.ttf), format('truetype');
+        }
+
+
+$rb: 'Rubik-Bold', sans-serif, serif;
+
+$rm: 'Rubik-Medium', sans-serif, serif;
+
+$rr: 'Rubik-Regular', sans-serif, serif;

@@ -1,0 +1,92 @@
+.benefit {
+    background-color: #E2F6E9;
+    padding-bottom: 30px;
+    &__body {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__column {
+        flex-basis: 50%;
+    }
+
+    &__cards {
+        display: flex;
+        justify-content: flex-start;
+        margin-bottom: 20px;
+    }
+
+    &__form {
+        padding: 20px 10px 30px 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #cbcece;
+    form {
+        .benefit-form-title {
+            font-family: $rm;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 1.4;
+        }
+        input[type=tel] { 
+            padding: 15px;
+            width: 50%;
+            margin-right: 30px;
+            color: #000;
+            font-size: 15px;
+            font-family: $rr;
+            border-radius: 15px;
+            border: 1px solid #cbcece;
+        }
+        p {
+            &:last-child {
+                font-size: 14px;
+                font-family: $rr;
+                line-height: 1.2;
+                a {
+                    color: #446B72;
+                }
+                
+            }
+        }
+    }
+    }
+}
+.benefit-column-left {
+    padding: 50px 20px 0;
+    h3 {
+        display: inline-block;
+        font-size: 27px;
+        font-family: $rm;
+        line-height: 1.4;
+        margin: 0;
+    }
+}
+.benefit-card {
+    width: 240px;
+    height: 240px;
+    margin-right: 50px; 
+    padding: 24px 12px 24px 24px;
+    background-position: center;
+    background-size: cover;
+    p {
+        margin: 0;
+        font-size: 18px;
+        font-family: $rb;
+        font-weight: 700;
+        line-height: 1.5;
+        color: #fff;
+    }
+}
+.benefit-column-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    &__imgs {
+        display: flex;
+        justify-content: flex-end;
+        img {
+            max-width: 50%;
+        }
+    }
+}
